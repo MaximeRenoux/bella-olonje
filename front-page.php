@@ -15,9 +15,8 @@
     </div>
 
     <div class="phonesPic">
-        <img id ="phoneLeft" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/10/left-phone-e1634607937787.png" alt="">
-        <img id="phoneRight" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/10/right-phone.png" alt="">
-        
+        <img id ="phoneLeft" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/10/left-phone.png" alt="">
+        <img id="phoneRight" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/10/right-phone.png" alt=""> 
     </div>
 
 </div>
@@ -37,7 +36,7 @@
   <div class="row">
 
     <div class="col">
-        <img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/10/step1-e1634611919496.png" alt="">
+        <img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/10/step1.png" alt="">
     </div>
 
     <div class="col">
@@ -53,7 +52,7 @@
 
 <div class="container step step2">
 
-    <img class="pic1 phoneScreen" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/10/step2-e1634613346229.png" alt="">
+    <img class="pic1 phoneScreen" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/10/step2-1.png" alt="">
 
 
   <div class="row">
@@ -67,7 +66,7 @@
     </div>
 
     <div class="col wideScreen">
-        <img class="picRight" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/10/step2-e1634613346229.png" alt="">
+        <img class="picRight" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/10/step2-1.png" alt="">
     </div>
 
   </div>
