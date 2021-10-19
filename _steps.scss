@@ -1,0 +1,71 @@
+.step{
+            h4{
+                margin-top: 250px;
+                color: $mainColor;
+            }
+
+            h2{
+                font-family: montserrat;
+                font-size: 600;
+            }
+
+            p{
+                color: #888888;
+            }
+
+            h1, h2, h3, h4, p{
+                margin-bottom: 30px;
+            }
+
+            margin-bottom: 100px;
+
+            img{
+                box-shadow: 10px 10px 8px 10px #888888;
+            }
+
+}
+
+.picRight{
+        margin-left : 200px;
+}
+
+.phoneScreen{
+    display: none;
+}
+
+/*Media*/
+
+@media (max-width: 800px) {
+
+    .wideScreen{
+        display: none;
+    }
+
+    .phoneScreen{
+        display: block;
+    }
+
+    .step{
+        img{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h4{
+            margin-top: 100px;
+        }
+    }
+
+    .step1, .step3{
+        img{
+            display: block;
+        }
+    }
+
+    .step1{
+        img{
+            margin-top: 80px;
+        }
+    }
+
+}
+

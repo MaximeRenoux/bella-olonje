@@ -1,0 +1,65 @@
+.phonesPic{
+
+    img{
+        width: auto;
+        display: block;
+        height: 700px;
+    }
+
+    #phoneLeft{
+        margin-left: 550px;
+    }
+
+    #phoneRight{
+        margin-top: 75px;
+        margin-left: 850px;
+    }
+
+}
+
+hr{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1000px;
+}
+
+.seperation{
+    h3{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: poppins;
+        text-align: center;
+    }
+}
+
+
+/*Media*/
+
+@media (max-width: 800px) {
+
+    .phonesPic{
+
+        img{
+            height: 450px;
+        }
+
+        #phoneLeft{
+            margin-top: 40px;
+            margin-left: 5px;
+            z-index: 2;
+        }
+    
+        #phoneRight{
+            margin-top: 85px;
+            margin-left: 170px;
+        }
+    
+    }
+
+    hr{
+        margin-top: 675px;
+    }
+
+}

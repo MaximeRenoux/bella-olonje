@@ -1,0 +1,386 @@
+/*
+Theme Name: Bella Olonje
+Author: Maxime Renoux
+*/
+body {
+  background: #fafafa;
+}
+
+h1, h2, h3, h4, a, p {
+  font-family: montserrat;
+}
+
+header {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+
+header h2,
+header h3,
+header a {
+  color: black;
+}
+
+header a {
+  text-decoration: none;
+  font-family: montserrat;
+}
+
+header .logo {
+  height: 70px;
+  margin-left: 75px;
+}
+
+header .main-nav {
+  position: absolute;
+  right: 0px;
+  top: 60px;
+}
+
+header .main-nav li {
+  display: inline;
+}
+
+header .main-nav a {
+  padding: 10px 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: .70em;
+}
+
+header .main-nav a:hover {
+  color: #FA4A0C;
+}
+
+header .dropbtn {
+  display: none;
+}
+
+/*Media*/
+@media (max-width: 800px) {
+  .header ul,
+  .main-nav ul {
+    display: none;
+  }
+  .header .header {
+    margin: 0 auto;
+    max-width: 1150px;
+  }
+  .header .dropbtn {
+    display: block;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    height: 30px;
+  }
+  .header .logo {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+}
+
+.banner {
+  height: 500px;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+
+.banner h1, .banner h2, .banner h3, .banner h4, .banner p {
+  position: relative;
+  color: white;
+  padding-top: 25px;
+  z-index: 1;
+}
+
+.banner h4 {
+  padding-top: 150px;
+  font-size: 35px;
+}
+
+.banner h2 {
+  font-family: poppins;
+  font-size: 80px;
+  padding: 25px 200px 0px;
+}
+
+.banner p {
+  font-size: 25px;
+}
+
+.banner .buttons {
+  position: relative;
+  z-index: 1;
+  padding-top: 20px;
+}
+
+.banner .buttons button {
+  border: none;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 30px;
+  height: 75px;
+  width: 275px;
+  vertical-align: middle;
+  line-height: 0px;
+}
+
+.banner .buttons .playStoreBtn {
+  background-color: #FA4A0C;
+}
+
+.banner .buttons .appStoreBtn {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.banner .buttons .appStoreBtn2 {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.banner-bottom h2 {
+  padding-top: 160px;
+}
+
+/*Media*/
+@media (max-width: 800px) {
+  .banner img {
+    display: none;
+  }
+  .banner h1, .banner h2, .banner h3, .banner h4, .banner p {
+    color: black;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .banner h4, .banner p {
+    color: #737373;
+  }
+  .banner h4 {
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .banner h2 {
+    font-size: 40px;
+    padding: 25px 30px 0px;
+  }
+  .banner p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .banner .buttons button {
+    display: block;
+    margin: 10px auto;
+    height: 50px;
+    width: 200px;
+  }
+  .banner .buttons .appStoreBtn {
+    color: #FA4A0C;
+    border-color: #FA4A0C;
+  }
+  .banner-bottom {
+    background-color: #252b42;
+  }
+  .banner-bottom h2 {
+    color: white;
+    padding-top: 80px;
+  }
+  .banner-bottom p {
+    color: #888888;
+  }
+  .banner-bottom img {
+    display: none;
+  }
+}
+
+.phonesPic img {
+  width: auto;
+  display: block;
+  height: 700px;
+}
+
+.phonesPic #phoneLeft {
+  margin-left: 550px;
+}
+
+.phonesPic #phoneRight {
+  margin-top: 75px;
+  margin-left: 850px;
+}
+
+hr {
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1000px;
+}
+
+.seperation h3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: poppins;
+  text-align: center;
+}
+
+/*Media*/
+@media (max-width: 800px) {
+  .phonesPic img {
+    height: 450px;
+  }
+  .phonesPic #phoneLeft {
+    margin-top: 40px;
+    margin-left: 5px;
+    z-index: 2;
+  }
+  .phonesPic #phoneRight {
+    margin-top: 85px;
+    margin-left: 170px;
+  }
+  hr {
+    margin-top: 675px;
+  }
+}
+
+.step {
+  margin-bottom: 100px;
+}
+
+.step h4 {
+  margin-top: 250px;
+  color: #FA4A0C;
+}
+
+.step h2 {
+  font-family: montserrat;
+  font-size: 600;
+}
+
+.step p {
+  color: #888888;
+}
+
+.step h1, .step h2, .step h3, .step h4, .step p {
+  margin-bottom: 30px;
+}
+
+.step img {
+  -webkit-box-shadow: 10px 10px 8px 10px #888888;
+          box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.picRight {
+  margin-left: 200px;
+}
+
+.phoneScreen {
+  display: none;
+}
+
+/*Media*/
+@media (max-width: 800px) {
+  .wideScreen {
+    display: none;
+  }
+  .phoneScreen {
+    display: block;
+  }
+  .step img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .step h4 {
+    margin-top: 100px;
+  }
+  .step1 img, .step3 img {
+    display: block;
+  }
+  .step1 img {
+    margin-top: 80px;
+  }
+}
+
+.footer {
+  height: 150px;
+  margin-top: 130px;
+}
+
+.logo {
+  height: 75px;
+  margin-top: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.social img {
+  height: 40px;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.copyright {
+  margin-top: 70px;
+  text-align: center;
+  color: #888888;
+}
+
+/*Media*/
+@media (max-width: 800px) {
+  .footer {
+    height: 60px;
+    margin-top: 100px;
+  }
+  .social {
+    margin-top: -40px;
+  }
+  .logo-footer {
+    display: none;
+  }
+  .copyright {
+    display: none;
+  }
+}
+
+/*Media*/
+/*Media*/
+@media (max-width: 800px) {
+  body {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

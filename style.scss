@@ -1,0 +1,38 @@
+/*
+Theme Name: Bella Olonje
+Author: Maxime Renoux
+*/
+
+$mainColor: #FA4A0C ;
+$secondColor: white;
+$textColor: #737373;
+$titleColor: black;
+
+body{
+    background:#fafafa;
+}
+
+h1, h2, h3, h4, a, p{
+    font-family: montserrat;
+}
+
+@import "./header";
+
+@import "./banner";
+
+@import "./phonespic";
+
+@import "./steps";
+
+@import "./footer";
+
+
+/*Media*/
+
+/*Media*/
+
+@media (max-width: 800px) {
+    body{
+        text-align: center;
+    }
+}
